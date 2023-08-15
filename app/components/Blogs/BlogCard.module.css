@@ -1,0 +1,27 @@
+.container {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 300px;
+}
+.container p {
+  font-family: Exo;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.container h3 {
+  font-family: Exo;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.container img{
+  border-radius: 40px;
+  /* transform: rotate(-60deg); */
+  margin-bottom: 20px;
+  /* transition: transform 1s ease-in-out; */
+}

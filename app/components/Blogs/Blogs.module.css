@@ -1,0 +1,36 @@
+.container {
+  margin-top: 100px;
+}
+.container h2 {
+  font-size: 2.3rem;
+  font-family: Exo;
+  font-weight: 900;
+  color: #ff6f00;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.blogs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+@media screen and (max-width:1064px) {
+  .blogs{
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width:950px) {
+  .blogs{
+    column-gap: 10px;
+  }
+}
+@media screen and (max-width:940px) {
+  .blogs{
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+}

@@ -1,0 +1,69 @@
+.container {
+  margin-top: 50px;
+}
+.head {
+  font-size: 5rem;
+  font-family: Exo;
+  color: #fff;
+  font-weight: 900;
+}
+.head span {
+  font-family: Exo;
+}
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px 10px;
+  color: white;
+  background-color: var(--mainColor);
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1190px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .head {
+    font-size: 4rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 666px) {
+  .head {
+    font-size: 3rem;
+  }
+  .button {
+    padding: 5px 5px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 508px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 30px;
+      }
+}
+@media screen and (max-width: 486px) {
+  .container{
+    padding-right: 5px;
+  }
+  .head {
+    font-size: 3rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+  .head span{
+    margin-left: 0px;
+  }
+}

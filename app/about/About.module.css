@@ -1,0 +1,36 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.about h2{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Exo;
+    color: #FF6F00;
+    margin-bottom: 12px;
+}
+.about p{
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .container img{
+        width: 50vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container img{
+        width: 90vw;
+        margin-top: 20px;
+    }
+}

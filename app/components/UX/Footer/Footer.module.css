@@ -1,0 +1,13 @@
+.container{
+    padding: 8px 10px;
+    width: 100vw;
+    background-color: #1D1D1D;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container p{
+    font-weight: 700;
+}

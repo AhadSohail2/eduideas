@@ -1,0 +1,7 @@
+.container{
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    z-index: 200;
+    padding: 60px 20px;
+}

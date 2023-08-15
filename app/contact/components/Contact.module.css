@@ -1,0 +1,42 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 100px;
+  background-color: #fff;
+  width: 90vw;
+  padding: 10px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+    row-gap: 40px;
+    align-items: start;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .container form input[type="text"],
+  .container form input[type="email"],
+  .container form input[type="tel"],
+  .container form textarea {
+    width: 90vw;
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container form input[type="text"],
+  .container form input[type="email"],
+  .container form input[type="tel"],
+  .container form textarea {
+    width: 80vw;
+    background-color: transparent;
+  }
+}

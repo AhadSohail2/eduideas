@@ -1,0 +1,42 @@
+.container{
+    margin-top: 60px;
+}
+.container h2 {
+    font-size: 2.3rem;
+    font-family: Exo;
+    font-weight: 900;
+    color: #FF6F00;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    row-gap: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+.info div i{
+    font-size: 1.8rem;
+    color: #FF6F00;
+}
+
+@media screen and (max-width:700px) {
+    .info{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .info div{
+        width: 240px;
+    }
+}
